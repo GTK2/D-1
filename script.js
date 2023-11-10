@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $('.notice-btn').click(function(){
+        $('.gallery').hide();        
+        $('.notice').show();
+    });
+    $('.gallery-btn').click(function(){
+        $('.notice').hide();        
+        $('.gallery').show();
+    });
+})
